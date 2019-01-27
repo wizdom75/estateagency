@@ -1,0 +1,546 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData axios
+20 silly mapToRegistry name axios
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'axios',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'axios',
+23 silly mapToRegistry   name: 'axios',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/axios
+25 silly fetchNamedPackageData bootstrap
+26 silly mapToRegistry name bootstrap
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'bootstrap',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'bootstrap',
+29 silly mapToRegistry   name: 'bootstrap',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+31 silly fetchNamedPackageData cross-env
+32 silly mapToRegistry name cross-env
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'cross-env',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'cross-env',
+35 silly mapToRegistry   name: 'cross-env',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/cross-env
+37 silly fetchNamedPackageData jquery
+38 silly mapToRegistry name jquery
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'jquery',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'jquery',
+41 silly mapToRegistry   name: 'jquery',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/jquery
+43 silly fetchNamedPackageData laravel-mix
+44 silly mapToRegistry name laravel-mix
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'laravel-mix',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'laravel-mix',
+47 silly mapToRegistry   name: 'laravel-mix',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/laravel-mix
+49 silly fetchNamedPackageData lodash
+50 silly mapToRegistry name lodash
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'lodash',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'lodash',
+53 silly mapToRegistry   name: 'lodash',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/lodash
+55 silly fetchNamedPackageData popper.js
+56 silly mapToRegistry name popper.js
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'popper.js',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'popper.js',
+59 silly mapToRegistry   name: 'popper.js',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/popper.js
+61 silly fetchNamedPackageData resolve-url-loader
+62 silly mapToRegistry name resolve-url-loader
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'resolve-url-loader',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'resolve-url-loader',
+65 silly mapToRegistry   name: 'resolve-url-loader',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/resolve-url-loader
+67 silly fetchNamedPackageData sass
+68 silly mapToRegistry name sass
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'sass',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'sass',
+71 silly mapToRegistry   name: 'sass',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/sass
+73 silly fetchNamedPackageData sass-loader
+74 silly mapToRegistry name sass-loader
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'sass-loader',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'sass-loader',
+77 silly mapToRegistry   name: 'sass-loader',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+79 silly fetchNamedPackageData vue
+80 silly mapToRegistry name vue
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'vue',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'vue',
+83 silly mapToRegistry   name: 'vue',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/vue
+85 verbose request uri https://registry.npmjs.org/axios
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 10:29:40 PM
+88 verbose request id abae1e9ac463cbf8
+89 http request GET https://registry.npmjs.org/axios
+90 verbose request uri https://registry.npmjs.org/bootstrap
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 10:29:40 PM
+93 http request GET https://registry.npmjs.org/bootstrap
+94 verbose request uri https://registry.npmjs.org/cross-env
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 10:29:40 PM
+97 http request GET https://registry.npmjs.org/cross-env
+98 verbose request uri https://registry.npmjs.org/jquery
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 10:29:40 PM
+101 http request GET https://registry.npmjs.org/jquery
+102 verbose request uri https://registry.npmjs.org/laravel-mix
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 10:29:40 PM
+105 http request GET https://registry.npmjs.org/laravel-mix
+106 verbose request uri https://registry.npmjs.org/lodash
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 10:29:40 PM
+109 http request GET https://registry.npmjs.org/lodash
+110 verbose request uri https://registry.npmjs.org/popper.js
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 10:29:40 PM
+113 http request GET https://registry.npmjs.org/popper.js
+114 verbose request uri https://registry.npmjs.org/resolve-url-loader
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 10:29:40 PM
+117 http request GET https://registry.npmjs.org/resolve-url-loader
+118 verbose request uri https://registry.npmjs.org/sass
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 10:29:40 PM
+121 http request GET https://registry.npmjs.org/sass
+122 verbose request uri https://registry.npmjs.org/sass-loader
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 10:29:40 PM
+125 http request GET https://registry.npmjs.org/sass-loader
+126 verbose request uri https://registry.npmjs.org/vue
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 10:29:40 PM
+129 http request GET https://registry.npmjs.org/vue
+130 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+131 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+132 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+133 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+134 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+135 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+136 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+137 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+138 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+139 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+140 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+141 info attempt registry request try #2 at 10:29:52 PM
+142 http request GET https://registry.npmjs.org/lodash
+143 info attempt registry request try #2 at 10:29:52 PM
+144 http request GET https://registry.npmjs.org/vue
+145 info attempt registry request try #2 at 10:29:52 PM
+146 http request GET https://registry.npmjs.org/laravel-mix
+147 info attempt registry request try #2 at 10:29:52 PM
+148 http request GET https://registry.npmjs.org/sass
+149 info attempt registry request try #2 at 10:29:52 PM
+150 http request GET https://registry.npmjs.org/resolve-url-loader
+151 info attempt registry request try #2 at 10:29:52 PM
+152 http request GET https://registry.npmjs.org/sass-loader
+153 info attempt registry request try #2 at 10:29:53 PM
+154 http request GET https://registry.npmjs.org/popper.js
+155 info attempt registry request try #2 at 10:29:53 PM
+156 http request GET https://registry.npmjs.org/jquery
+157 info attempt registry request try #2 at 10:29:53 PM
+158 http request GET https://registry.npmjs.org/bootstrap
+159 info attempt registry request try #2 at 10:29:53 PM
+160 http request GET https://registry.npmjs.org/cross-env
+161 info attempt registry request try #2 at 10:29:53 PM
+162 http request GET https://registry.npmjs.org/axios
+163 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+164 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+165 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+166 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+167 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+168 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+169 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+170 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+171 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+172 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+173 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+174 info attempt registry request try #3 at 10:30:54 PM
+175 http request GET https://registry.npmjs.org/vue
+176 info attempt registry request try #3 at 10:30:54 PM
+177 http request GET https://registry.npmjs.org/sass-loader
+178 info attempt registry request try #3 at 10:30:54 PM
+179 http request GET https://registry.npmjs.org/lodash
+180 info attempt registry request try #3 at 10:30:54 PM
+181 http request GET https://registry.npmjs.org/resolve-url-loader
+182 info attempt registry request try #3 at 10:30:55 PM
+183 http request GET https://registry.npmjs.org/laravel-mix
+184 info attempt registry request try #3 at 10:30:55 PM
+185 http request GET https://registry.npmjs.org/sass
+186 info attempt registry request try #3 at 10:30:55 PM
+187 http request GET https://registry.npmjs.org/popper.js
+188 info attempt registry request try #3 at 10:30:55 PM
+189 http request GET https://registry.npmjs.org/jquery
+190 info attempt registry request try #3 at 10:30:56 PM
+191 http request GET https://registry.npmjs.org/axios
+192 info attempt registry request try #3 at 10:30:56 PM
+193 http request GET https://registry.npmjs.org/cross-env
+194 info attempt registry request try #3 at 10:30:56 PM
+195 http request GET https://registry.npmjs.org/bootstrap
+196 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+196 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+196 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+196 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+196 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+196 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+196 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+196 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+196 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+196 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+196 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+196 silly fetchPackageMetaData  error for laravel-mix@^4.0.7 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+196 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+196 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+196 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+196 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+196 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+196 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+196 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+196 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+196 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+196 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+197 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+197 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+197 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+197 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+197 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+197 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+197 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+197 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+197 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+197 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+197 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+197 silly fetchPackageMetaData  error for popper.js@^1.12 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+197 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+197 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+197 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+197 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+197 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+197 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+197 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+197 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+197 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+197 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+198 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+198 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+198 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+198 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+198 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+198 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+198 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+198 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+198 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+198 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+198 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+198 silly fetchPackageMetaData  error for cross-env@^5.1 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+198 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+198 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+198 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+198 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+198 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+198 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+198 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+198 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+198 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+198 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+199 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+199 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+199 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+199 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+199 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+199 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+199 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+199 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+199 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+199 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+199 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+199 silly fetchPackageMetaData  error for bootstrap@^4.0.0 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+199 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+199 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+199 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+199 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+199 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+199 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+199 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+199 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+199 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+199 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+200 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+200 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+200 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+200 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+200 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+200 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+200 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+200 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+200 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+200 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+200 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+200 silly fetchPackageMetaData  error for lodash@^4.17.5 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+200 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+200 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+200 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+200 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+200 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+200 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+200 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+200 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+200 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+200 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+201 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+201 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+201 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+201 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+201 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+201 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+201 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+201 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+201 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+201 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+201 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+201 silly fetchPackageMetaData  error for resolve-url-loader@^2.3.1 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+201 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+201 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+201 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+201 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+201 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+201 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+201 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+201 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+201 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+201 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+202 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+202 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+202 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+202 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+202 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+202 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+202 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+202 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+202 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+202 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+202 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+202 silly fetchPackageMetaData  error for sass-loader@^7.1.0 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+202 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+202 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+202 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+202 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+202 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+202 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+202 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+202 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+202 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+202 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+203 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+203 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+203 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+203 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+203 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+203 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+203 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+203 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+203 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+203 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+203 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+203 silly fetchPackageMetaData  error for sass@^1.15.2 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+203 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+203 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+203 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+203 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+203 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+203 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+203 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+203 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+203 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+203 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+204 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+204 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+204 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+204 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+204 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+204 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+204 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+204 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+204 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+204 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+204 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+204 silly fetchPackageMetaData  error for jquery@^3.2 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+204 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+204 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+204 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+204 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+204 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+204 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+204 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+204 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+204 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+204 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+205 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+205 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+205 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+205 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+205 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+205 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+205 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+205 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+205 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+205 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+205 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+205 silly fetchPackageMetaData  error for vue@^2.5.17 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+205 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+205 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+205 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+205 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+205 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+205 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+205 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+205 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+205 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+205 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+206 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+206 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+206 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+206 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+206 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+206 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+206 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+206 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+206 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+206 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+206 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+206 silly fetchPackageMetaData  error for axios@^0.18 { Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+206 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+206 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+206 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+206 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+206 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+206 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+206 silly fetchPackageMetaData     at TLSSocket.emit (events.js:188:7)
+206 silly fetchPackageMetaData     at emitErrorNT (net.js:1277:8)
+206 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+206 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+207 silly rollbackFailedOptional Starting
+208 silly rollbackFailedOptional Finishing
+209 silly runTopLevelLifecycles Finishing
+210 silly install printInstalled
+211 verbose stack Error: tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+211 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+211 verbose stack     at ClientRequest.g (events.js:292:16)
+211 verbose stack     at emitOne (events.js:96:13)
+211 verbose stack     at ClientRequest.emit (events.js:188:7)
+211 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:309:9)
+211 verbose stack     at emitOne (events.js:96:13)
+211 verbose stack     at TLSSocket.emit (events.js:188:7)
+211 verbose stack     at emitErrorNT (net.js:1277:8)
+211 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+211 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+212 verbose cwd C:\wamp64\www\estateagency
+213 error Windows_NT 10.0.17134
+214 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+215 error node v6.10.3
+216 error npm  v3.10.10
+217 error code ECONNRESET
+218 error network tunneling socket could not be established, cause=Hostname/IP doesn't match certificate's altnames: "Host: registry.npmjs.org. is not in the cert's altnames: DNS:github.com, DNS:www.github.com"
+219 error network This is most likely not a problem with npm itself
+219 error network and is related to network connectivity.
+219 error network In most cases you are behind a proxy or have bad network settings.
+219 error network
+219 error network If you are behind a proxy, please make sure that the
+219 error network 'proxy' config is set properly.  See: 'npm help config'
+220 verbose exit [ 1, true ]

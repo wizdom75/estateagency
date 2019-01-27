@@ -51,7 +51,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                         <p><u></u></p>
-                        <p class="h6">&copy 2019 All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Peter Ncube</a></p>
+                        <p class="h6"><a class="text-green ml-2" href="#" target="_blank">Peter Ncube</a> &copy 2019 All right Reversed.</p>
                     </div>
                     </hr>
                 </div>	
