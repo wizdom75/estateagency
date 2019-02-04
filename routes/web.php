@@ -28,6 +28,7 @@ Route::get('/to-rent/{id}', 'ListingsController@show');
 Route::get('/house-prices', 'HousePricesController@index');
 
 Route::get('/landlords', 'LandlordsController@index');
+Route::get('/online-valuation', 'OnlineValuation@create');
 
 //Route::resource('contact', 'ContactsController');
 Route::get('/contact', 'ContactsController@create');

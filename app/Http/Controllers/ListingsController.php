@@ -69,7 +69,7 @@ class ListingsController extends Controller
 
         $listing->save();
 
-        return redirect('/listings/create')->with('success', 'Listing added.');
+        return redirect('/admin/listings/create')->with('success', 'Listing added.');
     }
 
     /**
